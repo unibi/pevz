@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PEVZ.de</title>
+<style>.footer { position: absolute; bottom: 0; height: 60px; line-height: 60px; }</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="display-1 text-center mt-5">PEVZ.de</h1>
+      <p class="text-center">F&uuml;r eine schnelle Suche im Personen- und Einrichtungsverzeichnis der Universit&auml;t Bielefeld</p>
+    </div>
+    <form action="https://ekvv.uni-bielefeld.de/pers_publ/publ/SuchePlugin.jsp?" method="get">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control form-control-lg" autofocus="autofocus" id="sq" name="suchbegriff" placeholder="Name / Einrichtung / Telefon" required>
+        <div class="input-group-append">
+          <button type="submit" class="btn btn-lg btn-outline-secondary" name="btSuche">Suchen</button>
+        </div>
+    </div>
+    </form>
+    <footer class="footer">
+			<div class="container">
+				<span class="text-muted">by <a href="https://www.fabianwohlgemuth.de" title="FW web services">fw</a> web services.</span>
+			</div>
+		</footer>
+  </div>
+</body>
+</html>
